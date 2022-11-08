@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "181957126871",
+    "project_id": "gotasker-bd781",
+    "storage_bucket": "gotasker-bd781.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181957126871:android:b84a5d4481f76a54d3de92",
+        "android_client_info": {
+          "package_name": "com.gotasker.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181957126871-6oboe8bcqh0r0brngd2ro10ltrlmlluo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkjkaTAGDtkp2PYcv_4jRdOOGarEJIuNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "181957126871-6oboe8bcqh0r0brngd2ro10ltrlmlluo.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "181957126871-ca6eejq4bedbsamptv0j873rp6emue0j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.gotasker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,98 @@
+export const dummyData = [
+    {
+      id: '1',
+      projectName: 'Project #630',
+  
+      action: 'DISMISS',
+      name: 'Aashish Dhawan',
+      date: '02/09/2021',
+      services: 'NEW SERVICE CREATED',
+      textDesc: 'Aashish Dhawan has requested for a new',
+      textDesc1: 'service.',
+      btnText: 'VIEW SERVICE',
+    },
+    {
+      id: '2',
+      projectName: 'Project #609',
+  
+      action: 'DISMISS',
+      name: 'Aashish Dhawan',
+      date: '02/09/2021',
+      services: 'QUOTE ACCEPTED',
+      textDesc: 'Aashish Dhawan has accepted the quote -',
+      textDesc1: 'yyy.',
+      btnText: 'VIEW QUOTE',
+    },
+    {
+      id: '3',
+      projectName: 'Project #630',
+  
+      action: 'DISMISS',
+      name: 'Aashish Dhawan',
+      date: '02/09/2021',
+      services: 'NEW MESSAGE RECEIVED',
+      textDesc: 'Aashish Dhawan has requested for a new',
+      textDesc1: 'message.',
+      btnText: 'VIEW MESSAGE',
+    },
+    {
+      id: '4',
+      projectName: 'Project #618',
+  
+      action: 'DISMISS',
+      name: 'Aashish Dhawan',
+      date: '02/09/2021',
+      services: 'QUOTE ACCEPTED',
+      textDesc: 'Aashish Dhawan has sent you a new',
+      textDesc1: 'message',
+      btnText: 'VIEW QUOTE',
+    },
+    {
+      id: '5',
+      projectName: 'Project #609',
+  
+      action: 'DISMISS',
+      name: 'Aashish Dhawan',
+      date: '02/09/2021',
+      services: 'QUOTE ACCEPTED',
+      textDesc: 'Aashish Dhawan has accepted the quote -',
+      textDesc1: 'yyy.',
+      btnText: 'VIEW QUOTE',
+    },
+    {
+      id: '6',
+      projectName: 'Project #609',
+  
+      action: 'DISMISS',
+      name: 'Aashish Dhawan',
+      date: '02/09/2021',
+      services: 'QUOTE ACCEPTED',
+      textDesc: 'Aashish Dhawan has accepted the quote -',
+      textDesc1: 'yyy.',
+      btnText: 'VIEW QUOTE',
+    },
+    {
+      id: '7',
+      projectName: 'Project #630',
+  
+      action: 'DISMISS',
+      name: 'Aashish Dhawan',
+      date: '02/09/2021',
+      services: 'NEW SERVICE CREATED',
+      textDesc: 'Aashish Dhawan has requested for a new',
+      textDesc1: 'service.',
+      btnText: 'VIEW SERVICE',
+    },
+    {
+      id: '8',
+      projectName: 'Project #630',
+  
+      action: 'DISMISS',
+      name: 'Aashish Dhawan',
+      date: '02/09/2021',
+      services: 'NEW MESSAGE RECEIVED',
+      textDesc: 'Aashish Dhawan has requested for a new',
+      textDesc1: 'message.',
+      btnText: 'VIEW MESSAGE',
+    },
+  ];

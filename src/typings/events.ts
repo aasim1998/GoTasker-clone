@@ -1,0 +1,1 @@
+export type PressEvent = (...args: any) => void;

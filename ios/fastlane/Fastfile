@@ -1,0 +1,48 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Runs all the tests"
+  lane :test do
+  end
+
+  desc "Deploy a new version to the appcenter"
+
+ lane :deploy do
+
+  build
+  appcenter_upload(
+    api_token: '9f302f25d139c7acc0ad32775c19ff32fbafb917',
+    owner_name: 'crownstack_staging',
+    app_name: 'GoTasker-iOS',
+    file: lane_context[SharedValues::IPA_OUTPUT_PATH],
+    notify_testers: false,
+    release_notes: 'release_notes'
+  )
+  clean_build_artifacts
+ end
+
+ lane :build do
+  gym(
+  scheme: ENV['SCHEME'], 
+  clean: true,
+  export_method: ENV['IOS_EXPORT_METHOD'],
+  output_directory: './builds',
+  xcargs: "-allowProvisioningUpdates"
+  )
+ end
+end
